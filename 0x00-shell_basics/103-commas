@@ -1,3 +1,2 @@
 #!/bin/bash
 echo -n './, ../, '; ls -a1p | sort -d | grep -v -E "^\.?$" | paste -sd ', ' -
-
