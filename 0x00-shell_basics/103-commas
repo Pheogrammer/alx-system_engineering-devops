@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n './, ../, '; ls -a1p | sort -d | grep -v -E "^\.?$" | paste -sd ', ' -
+ls -a1p | sed ':a;N;$!ba;s/\n/, /g' | sed 's/\.\//.\//' | sed 's/\.\.\//..\//'
