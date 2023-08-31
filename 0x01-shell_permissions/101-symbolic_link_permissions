@@ -1,2 +1,2 @@
 #!/bin/bash
-[ -L _hello ] | chown vincent _hello | chgrp staff _hello
+chown vincent _hello | chgrp staff _hello
