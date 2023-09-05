@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 | grep -E '^[[:digit:]]*[13579]'
+paste - - | cut -f1
