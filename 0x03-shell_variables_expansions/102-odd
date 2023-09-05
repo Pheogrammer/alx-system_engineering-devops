@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 | grep -E '^[[:digit:]]*[013579]'
+ls -1 | grep -E '^[[:digit:]]*[13579]'
